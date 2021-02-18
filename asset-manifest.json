@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tthlanding/static/css/main.0b01b396.chunk.css",
+    "main.js": "/tthlanding/static/js/main.40647d28.chunk.js",
+    "main.js.map": "/tthlanding/static/js/main.40647d28.chunk.js.map",
+    "runtime-main.js": "/tthlanding/static/js/runtime-main.3355e699.js",
+    "runtime-main.js.map": "/tthlanding/static/js/runtime-main.3355e699.js.map",
+    "static/js/2.6c1386e6.chunk.js": "/tthlanding/static/js/2.6c1386e6.chunk.js",
+    "static/js/2.6c1386e6.chunk.js.map": "/tthlanding/static/js/2.6c1386e6.chunk.js.map",
+    "index.html": "/tthlanding/index.html",
+    "static/css/main.0b01b396.chunk.css.map": "/tthlanding/static/css/main.0b01b396.chunk.css.map",
+    "static/js/2.6c1386e6.chunk.js.LICENSE.txt": "/tthlanding/static/js/2.6c1386e6.chunk.js.LICENSE.txt",
+    "static/media/hero-img.3f6f754c.svg": "/tthlanding/static/media/hero-img.3f6f754c.svg",
+    "static/media/nav-logo.4f82a5f0.svg": "/tthlanding/static/media/nav-logo.4f82a5f0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3355e699.js",
+    "static/js/2.6c1386e6.chunk.js",
+    "static/css/main.0b01b396.chunk.css",
+    "static/js/main.40647d28.chunk.js"
+  ]
+}
