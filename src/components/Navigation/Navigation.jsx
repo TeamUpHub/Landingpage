@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import "./Navigation.css";
 import navigationLogo from "../../images/nav-logo.svg";
 
 class Navigation extends Component {
@@ -20,8 +19,8 @@ class Navigation extends Component {
 
   render() {
     return (
-      <nav className="NavbarItems">
-        <div className="navbar-logo">
+      <nav className="[ navigation ]">
+        <div className="[ navigation__logo ]">
           <Link to="/">
             <img src={navigationLogo} alt="Company logo" />
           </Link>
@@ -31,15 +30,15 @@ class Navigation extends Component {
             className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
           ></i>
         </div>
-        <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
+        <ul className={this.state.clicked ? "[ navigation__menu ] active" : "[ navigation__menu ]"}>
           <Link to="/product">
-            <li className="nav-links"> Product</li>
+            <li className="[ navigation__link ]"> Product</li>
           </Link>
           <Link to="/about">
-            <li className="nav-links">About Us</li>
+            <li className="[ navigation__link ]">About Us</li>
           </Link>
           <Link to="contact">
-            <li className="nav-links">Contact</li>
+            <li className="[ navigation__link ]">Contact</li>
           </Link>
         </ul>
       </nav>
