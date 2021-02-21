@@ -8,10 +8,9 @@
   color: #ff335f;
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1150px) {
     .container{
         margin-top: 2rem;
-        width: 100%;
         padding: 1rem;
         overflow: hidden;
     }
