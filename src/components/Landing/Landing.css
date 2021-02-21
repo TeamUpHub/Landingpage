@@ -15,7 +15,7 @@
         overflow: hidden;
     }
     .text-container{
-        width: 50%;
+        width: 45%;
         float: right;
         text-align: left;
         margin-right: 5rem;
@@ -24,7 +24,7 @@
     .image-container{
         width: 40%;
         float: left;
-        margin-left: 4srem;
+        margin-left: 4rem;
     }
     
     .landing-title{
