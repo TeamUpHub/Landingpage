@@ -6,7 +6,7 @@ const Landing = () => {
   return (
     <div className="[ welcomeblock ]">
       
-      <div className="[ welcomeblock__container ][ welcome__container--padding">
+      <div className="[ welcomeblock__container ][ welcome__container--padding ]">
         <h1 className="[ welcomeblock__text ][ welcomeblock__text--font-size ]">
           We make it easier for<br/> people to
           <span className="[ welcomeblock__text--highlight ]"><br/> achieve their dreams</span>{" "}
