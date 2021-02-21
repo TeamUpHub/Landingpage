@@ -1,0 +1,64 @@
+/* STYLES FOR ALL SIZES*/
+
+.landing-title {
+  color: #35043a;
+}
+
+.red-highlight {
+  color: #ff335f;
+}
+
+@media only screen and (min-width: 1100px) {
+    .container{
+        margin-top: 2rem;
+        width: 100%;
+        padding: 1rem;
+        overflow: hidden;
+    }
+    .text-container{
+        width: 50%;
+        float: right;
+        text-align: left;
+        margin-right: 5rem;
+    }
+    
+    .image-container{
+        width: 40%;
+        float: left;
+        margin-left: 4srem;
+    }
+    
+    .landing-title{
+        font-size: 4rem;
+    }
+    
+    .landing-text{
+        margin-top: 2rem;
+        line-height: 1.5;
+    }
+}
+
+
+
+/* MOBILE */
+@media screen and (max-width: 600px) { 
+    .landing-title {
+        margin-top: 100px;
+        text-align: left;
+        padding: 1rem;
+        color: #35043a;
+        font-size: 2.5rem;
+      }
+      
+      .landing-text {
+        padding: 1rem;
+        text-align: left;
+      }
+      
+      .hero-img {
+        width: 80%;
+        margin-top: 2rem;
+      }
+      
+
+}
