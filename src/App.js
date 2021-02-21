@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
+import "./Stylesheets/style.scss"
 //Components
 import Landing from "./components/Landing/Landing";
 import Navigation from "./components/Navigation/Navigation";
