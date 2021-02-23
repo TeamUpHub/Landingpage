@@ -1,12 +1,8 @@
 import React from 'react';
-import './LandingButton.css';
+import './LandingButton.scss';
 
-const LandingButton = (props) => {
-    return(
-        <button className="button">
-            {props.text}
-        </button>
-    )
-}
+const LandingButton = ({ text }) => {
+  return <button className='button'>{text}</button>;
+};
 
 export default LandingButton;

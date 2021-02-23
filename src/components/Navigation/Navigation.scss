@@ -1,0 +1,46 @@
+@import '../../styles/variables.scss';
+
+.navigation {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: 95%;
+  padding: 0.8rem;
+  text-decoration: none;
+
+  &__menu {
+    display: none;
+    font-size: 1.2rem;
+  }
+  &__link {
+    color: $color-purple;
+    padding: 0.5rem 1.2rem;
+    text-decoration-line: unset;
+
+    &:hover {
+      transition: all 0.3s ease-out;
+      background-color: $color-purple;
+      color: white;
+      border-radius: 4px;
+    }
+    &:active {
+      text-decoration: white !important;
+    }
+  }
+}
+
+/* OTHER THAN MOBILE */
+@media only screen and (min-width: 600px) {
+  .navigation {
+    &__logo {
+      width: 20%;
+    }
+    &__menu {
+      display: inline-flex;
+      width: 80%;
+      justify-content: flex-end;
+      list-style: none;
+    }
+  }
+}
