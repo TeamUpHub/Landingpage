@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./Stylesheets/style.scss"
+import "./styles/style.scss"
 //Components
 import Landing from "./components/Landing/Landing";
 import Navigation from "./components/Navigation/Navigation";
@@ -18,7 +18,7 @@ function App() {
         <Navigation />
           <Switch>
             <Route exact path="/" component={Homepage}></Route>
-            <Route exact path="/tthlanding" component={Homepage}></Route>
+            <Route exact path="/landingpage" component={Homepage}></Route>
             <Route exact path="/product" component={ProductPage}></Route>
             <Route exact path="/about" component={AboutUsPage}></Route>
             <Route exact path="/contact" component={ContactPage}></Route>
