@@ -22,7 +22,6 @@ const Landing = () => {
             Our platform connects those who want to make a difference together
           </span>
         </h3>
-        <LandingButton text='Sounds good?' />
       </div>
       <div className='[ welcomeblock__container ][ welcomeblock__container--position-left ] '>
         <img className='[ welcomeblock__image ]' src={heroImg} alt='Landing Picture' />

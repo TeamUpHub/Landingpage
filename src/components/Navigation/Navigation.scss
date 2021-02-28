@@ -1,5 +1,6 @@
 @import '../../styles/variables.scss';
 
+
 .navigation {
   display: inline-flex;
   justify-content: center;
@@ -9,6 +10,10 @@
   padding: 0.8rem;
   text-decoration: none;
 
+  .li{
+    text-decoration: none;
+  }
+  
   &__menu {
     display: none;
     font-size: 1.2rem;
@@ -17,6 +22,7 @@
     color: $color-purple;
     padding: 0.5rem 1.2rem;
     text-decoration-line: unset;
+    
 
     &:hover {
       transition: all 0.3s ease-out;

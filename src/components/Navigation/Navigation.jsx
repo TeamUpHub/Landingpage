@@ -22,6 +22,7 @@ const Navigation = () => {
         <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
       </div>
       <ul className={clicked ? '[ navigation__menu ] active' : '[ navigation__menu ]'}>
+        { /*
         <Link to='/product'>
           <li className='[ navigation__link ]'> Product</li>
         </Link>
@@ -31,6 +32,7 @@ const Navigation = () => {
         <Link to='contact'>
           <li className='[ navigation__link ]'>Contact</li>
         </Link>
+        */}
       </ul>
     </nav>
   );
