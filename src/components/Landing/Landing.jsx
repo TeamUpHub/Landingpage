@@ -7,7 +7,7 @@ import './Landing.scss';
 const Landing = () => {
   return (
     <div className='[ welcomeblock ]'>
-      <div className='[ welcomeblock__container ][ welcomeblock__container--padding ]'>
+      <div className='[ welcomeblock__container ][ welcomeblock__container--padding-top ]'>
         <h1 className='[ welcomeblock__text ][ welcomeblock__text--font-size ]'>
           We make it easier for
           <br /> people to
@@ -24,7 +24,7 @@ const Landing = () => {
         </h3>
         <LandingButton text='Sounds good?' />
       </div>
-      <div className='[ welcomeblock__container ] '>
+      <div className='[ welcomeblock__container ][ welcomeblock__container--position-left ] '>
         <img className='[ welcomeblock__image ]' src={heroImg} alt='Landing Picture' />
       </div>
     </div>
