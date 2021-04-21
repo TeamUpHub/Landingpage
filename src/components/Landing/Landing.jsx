@@ -1,6 +1,6 @@
 import React from 'react';
 import heroImg from '../../images/hero-img.svg';
-import LandingButton from '../LandingButton/LandingButton';
+import { TestComponent } from "teamuphub-ui";
 
 import './Landing.scss';
 
@@ -9,6 +9,7 @@ const Landing = () => {
     <div className='[ welcomeblock ]'>
       <div className='[ welcomeblock__container ][ welcomeblock__container--padding-top ]'>
         <h1 className='[ welcomeblock__text ][ welcomeblock__text--font-size ]'>
+          <TestComponent/>
           We make it easier for
           <br /> people to
           <span className='[ welcomeblock__text--highlight ]'>
